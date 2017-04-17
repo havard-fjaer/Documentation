@@ -4,8 +4,8 @@ This is where I document personal projects, configurations, references, etc. Mos
 
 Håvard
 
-# Trello
+## Trello
 Many of the projects are also tracked in Trello: <https://trello.com/b/nrnpa8sZ/maker-projects>
 
 ## Projects
- - [Homebridge](homebridge.md)
+ - [Homebridge](homebridge.md) - node.js based server for creating HomeKit services for Apples Siri to talk to.
