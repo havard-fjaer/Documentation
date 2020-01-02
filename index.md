@@ -1,5 +1,5 @@
 # Håvard Fjær
-Let me know if 
+Let me know if there are any [issues](https://github.com/havard-fjaer/Documentation/issues) with my documentation.
 ## Trello
 Many of the projects are also tracked in Trello: <https://trello.com/b/nrnpa8sZ/maker-projects>
 
@@ -7,5 +7,5 @@ Many of the projects are also tracked in Trello: <https://trello.com/b/nrnpa8sZ/
  - [Homebridge](homebridge.md) - node.js based server for creating HomeKit services for Apples Siri to talk to.
  - [Revo](revo.md) - Hacking my Revo radio, controlling it with web requests.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDYxNTIxMCwxNDUzNjE5NzBdfQ==
+eyJoaXN0b3J5IjpbLTE5MDg5NTg3MDgsMTQ1MzYxOTcwXX0=
 -->
