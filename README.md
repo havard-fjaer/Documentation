@@ -1,6 +1,9 @@
-# Documentation
-This is where I document personal TODOs, configurations, references, etc. Mostly for my own use, but feel free to comment if it was useful for you too.
+# Håvard Fjær Documentation
+Personal TODOs, configurations, references, etc.
 
 Docs: <http://docs.fjaer.com/>
 
 (Or browse [in-place](index.md))
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU0OTE4MTQyOF19
+-->
