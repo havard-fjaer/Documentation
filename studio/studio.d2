@@ -1,242 +1,99 @@
-# Deluge
+##############
+### Output ###
+##############
+
+### Synthstrom Audible Deluge ###
 Deluge Output: {
-    L
-    R
+  L
+  R
 }
-# Deluge: {
-#   MIDI: {
-#     shape: "sql_table"
-#     USB In
-#     USB Out
-#     DIN In
-#     DIN Out
-#   }
-#   CV: {
-#     shape: "sql_table"
-#     Gate Out 1
-#     Gate Out 2
-#     Gate Out 3
-#     Gate Out 4
-#     CV Out 1
-#     CV Out 2
-#   }
-# }
-Deluge Output.L -> SPatch.Output.1
-Deluge Output.R -> SPatch.Output.2
+Deluge Output.L -> Patch.Output.1
+Deluge Output.R -> Patch.Output.2
 
-
-
+### Alessis Strike Multipad ###
 Multipad Output: {
-    Main R
-    Main L
+  Main R
+  Main L
 }
-
-Multipad Output.Main R -> SPatch.Output.3
-Multipad Output.Main L -> SPatch.Output.4
-
-# Multipad: {
-#   Trigger: {
-#     shape: "sql_table"
-#     Trigger In 1: Velocity / Switch
-#     Trigger In 2: Trigger / Head+Rim
-#     Trigger In 3: Trigger / Head+Rim
-#     Trigger In 4: Trigger / Head+Rim
-#     Trigger In 5: Trigger / Head+Rim
-#     Trigger In HH: Switch / Variable
-#   }
-#   Footswitch: {
-#     shape: "sql_table"
-#     Foot Control 1: Switch / Variable
-#     Foot Control 2: Switch / Variable
-#     Foot Control 3: Switch / Variable
-#     Foot Control 4: Switch / Variable
-#   }
-#   MIDI: {
-#     shape: "sql_table"
-#     USB In
-#     USB Out
-#     DIN In
-#     DIN Out/Thru
-#   }
-# }
-
-
+Multipad Output.Main R -> Patch.Output.3
+Multipad Output.Main L -> Patch.Output.4
 
 ### Empress Zoia ###
-
-
 Zoia Output: {
   L
   R
 }
-Zoia Output.L -> SPatch.Output.5
-Zoia Output.R -> SPatch.Output.6
+Zoia Output.L -> Patch.Output.5
+Zoia Output.R -> Patch.Output.6
 
-# Zoia: {
-#   shape: "sql_table"
-#   MIDI In: MIDI
-#   MIDI Out: MIDI
-#   Control Port: MIDI / EXP / CV / Switch
-# }
-
-
-
-# Syntakt: {
-#   shape: "sql_table"
-#   Input L: Audio
-#   Input R: Audio
-#   Output L: Audio
-#   Output R: Audio
-#   Headphones: Audio
-#   USB: MIDI / Audio / Overbridge
-#   MIDI In: MIDI
-#   MIDI Out: MIDI
-#   MIDI Thru: MIDI
-# }
-# 2600: {
-#   shape: "sql_table"
-#   Output L: Audio
-#   Output R: Audio
-#   Headphones: Audio
-#   USB: MIDI
-#   MIDI In: MIDI
-#   MIDI Thru: MIDI
-#   Interval Latch: Switch
-#   Portamento: Switch
-#   Panel In / Out: CV / Gate / Trig / Audio
-# }
-# iPad: {
-#   shape: "sql_table"
-#   Output L: Audio
-#   Output R: Audio
-# }
-# ES-9: {
-#   Output: {
-#     L
-#     R
-#     Headphones
-#     USB Audio
-#     SPDIF
-#   }
-#   Input: {
-#     shape: "sql_table"
-#     USB Audio
-#     SPDIF
-#   }
-#   Mixer Input: {
-#     shape: "sql_table"
-#     Input 1: Audio / CV / Gate
-#     Input 2: Audio / CV / Gate
-#     Input 3: Audio / CV / Gate
-#     Input 4: Audio / CV / Gate
-#     Input 5: Audio / CV / Gate
-#     Input 6: Audio / CV / Gate
-#     Input 7: Audio / CV / Gate
-#     Input 8: Audio / CV / Gate
-#     Input 9: Audio / CV / Gate
-#     Input 10: Audio / CV / Gate
-#     Input 11: Audio / CV / Gate
-#     Input 12: Audio / CV / Gate
-#     Input 13: Audio / CV / Gate
-#     Input 14: Audio / CV / Gate
-#   }
-#   Mixer Output: {
-#     shape: "sql_table"
-#     Output 1: Audio / CV / Gate
-#     Output 2: Audio / CV / Gate
-#     Output 3: Audio / CV / Gate
-#     Output 4: Audio / CV / Gate
-#     Output 5: Audio / CV / Gate
-#     Output 6: Audio / CV / Gate
-#     Output 7: Audio / CV / Gate
-#     Output 8: Audio / CV / Gate
-#   }
-#   MIDI: {
-#     shape: "sql_table"
-#     In: USB
-#     Out: USB
-#   }
-# }
-
-
-
-### Behringer XR18 ###
-XR18 Input: {
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
-    11
-    12
-    13
-    14
-    15
-    16
-    # 17
-    # 18
+### Elektron Syntakt ###
+Syntakt Output: {
+  L
+  R
 }
+Syntakt Output.L -> Patch.Output.7
+Syntakt Output.R -> Patch.Output.8
 
+### Expert Sleepers ES-9 ###
+ES-9 Output: {
+  L
+  R
+}
+ES-9 Output.L -> Patch.Output.9
+ES-9 Output.R -> Patch.Output.10
+
+### ARP 2600 ###
+2600 Output: {
+  L
+  R
+}
+2600 Output.L -> Patch.Output.11
+2600 Output.R -> Patch.Output.12
+
+### DJI ###
+DJI Output: {
+  L
+  R
+}
+DJI Output.L -> Patch.Output.13
+DJI Output.R -> Patch.Output.14
+
+### iPad ###
+iPad Output: {
+  L
+  R
+}
+iPad Output.L -> Patch.Output.15
+iPad Output.R -> Patch.Output.16
+
+### XR18 ###
 XR18 Output: {
-    Aux 1
-    Aux 2
-    Aux 3
-    Aux 4
-    Aux 5
-    Aux 6
-    Main L
-    Main R
+  Aux 1
+  Aux 2
+  Aux 3
+  Aux 4
+  Aux 5
+  Aux 6
+  Main L
+  Main R
 }
-XR18 Output.Aux 1 -> SPatch.Output.17
-XR18 Output.Aux 2 -> SPatch.Output.18
-XR18 Output.Aux 3 -> SPatch.Output.19
-XR18 Output.Aux 4 -> SPatch.Output.20
-XR18 Output.Aux 5 -> SPatch.Output.21
-XR18 Output.Aux 6 -> SPatch.Output.22
-XR18 Output.Main L -> SPatch.Output.23
-XR18 Output.Main R -> SPatch.Output.24
-
-# XR18: {
-#   MIDI: {
-#     shape: "sql_table"
-#     DIN In
-#     DIN Out
-#     USB In
-#     USB Out
-#   }
-#   Other: {
-#     shape: "sql_table"
-#     Remote: Ethernet
-#     Personal monitoring: Ultranet
-#   }
-# }
-
-Spatch.Input.25 -> XR18 Input.1
-Spatch.Input.26 -> XR18 Input.2
-Spatch.Input.27 -> XR18 Input.3
-Spatch.Input.28 -> XR18 Input.4
-Spatch.Input.29 -> XR18 Input.5
-Spatch.Input.30 -> XR18 Input.6
-Spatch.Input.31 -> XR18 Input.7
-Spatch.Input.32 -> XR18 Input.8
-Spatch.Input.33 -> XR18 Input.9
-Spatch.Input.34 -> XR18 Input.10
-Spatch.Input.35 -> XR18 Input.11
-Spatch.Input.36 -> XR18 Input.12
-Spatch.Input.37 -> XR18 Input.13
-Spatch.Input.38 -> XR18 Input.14
-Spatch.Input.39 -> XR18 Input.15
-Spatch.Input.40 -> XR18 Input.16
+XR18 Output.Aux 1 -> Patch.Output.17
+XR18 Output.Aux 2 -> Patch.Output.18
+XR18 Output.Aux 3 -> Patch.Output.19
+XR18 Output.Aux 4 -> Patch.Output.20
+XR18 Output.Aux 5 -> Patch.Output.21
+XR18 Output.Aux 6 -> Patch.Output.22
+XR18 Output.Main L -> Patch.Output.23
+XR18 Output.Main R -> Patch.Output.24
 
 
-### Samson S-Patch Plus ###
+################
+### Patchbay ###
+################
 
-Spatch: {
+### Samson S-patch Plus ###
+Patch: {
+  label: Samson S-patch Plus
   Output: {
     1
     2
@@ -289,51 +146,101 @@ Spatch: {
     47
     48
   }
-  Output.1 -> Input.25 : Normal
-  Output.2 -> Input.26 : Normal
-  Output.3 -> Input.27 : Normal
-  Output.4 -> Input.28 : Normal
-  Output.5 -> Input.29 : Normal
-  Output.6 -> Input.30
-  Output.7 -> Input.31
-  Output.8 -> Input.32
-  Output.9 -> Input.33
-  Output.10 -> Input.34
-  Output.11 -> Input.35
-  Output.12 -> Input.36
-  Output.13 -> Input.37
-  Output.14 -> Input.38
-  Output.15 -> Input.39
-  Output.16 -> Input.40
-  Output.17 -> Input.41
-  Output.18 -> Input.42
-  Output.19 -> Input.43
-  Output.20 -> Input.44
-  Output.21 -> Input.45
-  Output.22 -> Input.46
-  Output.23 -> Input.47
-  Output.24 -> Input.48
+  Output.1 -> Input.25: Normal
+  Output.2 -> Input.26: Normal
+  Output.3 -> Input.27: Normal
+  Output.4 -> Input.28: Normal
+  Output.5 -> Input.29: Normal
+  Output.6 -> Input.30: Normal 
+  Output.7 -> Input.31: Normal
+  Output.8 -> Input.32: Normal
+  Output.9 -> Input.33: Normal
+  Output.10 -> Input.34: Normal
+  Output.11 -> Input.35: Normal
+  Output.12 -> Input.36: Normal
+  Output.13 -> Input.37: Normal
+  Output.14 -> Input.38: Normal
+  Output.15 -> Input.39: Normal
+  Output.16 -> Input.40: Normal
+  Output.17 -> Input.41: Normal
+  Output.18 -> Input.42: Normal
+  Output.19 -> Input.43: Normal
+  Output.20 -> Input.44: Normal
+  Output.21 -> Input.45: Normal
+  Output.22 -> Input.46: Normal
+  Output.23 -> Input.47: Normal
+  Output.24 -> Input.48: Normal
 }
 
+
+#############
+### Input ###
+#############
+
+### XR18 ###
+XR18 Input: {
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+}
+Patch.Input.25 -> XR18 Input.1
+Patch.Input.26 -> XR18 Input.2
+Patch.Input.27 -> XR18 Input.3
+Patch.Input.28 -> XR18 Input.4
+Patch.Input.29 -> XR18 Input.5
+Patch.Input.30 -> XR18 Input.6
+Patch.Input.31 -> XR18 Input.7
+Patch.Input.32 -> XR18 Input.8
+Patch.Input.33 -> XR18 Input.9
+Patch.Input.34 -> XR18 Input.10
+Patch.Input.35 -> XR18 Input.11
+Patch.Input.36 -> XR18 Input.12
+Patch.Input.37 -> XR18 Input.13
+Patch.Input.38 -> XR18 Input.14
+Patch.Input.39 -> XR18 Input.15
+Patch.Input.40 -> XR18 Input.16
+
+### Synthstrom Audible Deluge ###
 Deluge Input: {
   Line L
   Line R
 }
-Spatch.Input.41 -> Deluge Input.Line L
-Spatch.Input.42 -> Deluge Input.Line R
+Patch.Input.41 -> Deluge Input.Line L
+Patch.Input.42 -> Deluge Input.Line R
 
-
-# Multipad
+### Alessis Strike Multipad ###
 Multipad Input: {
   Record L
   Record R
 }
-Spatch.Input.43 -> Multipad Input.Record L
-Spatch.Input.44 -> Multipad Input.Record R
+Patch.Input.43 -> Multipad Input.Record L
+Patch.Input.44 -> Multipad Input.Record R
 
+### Empress Zoia ###
 Zoia Input: {
   L
   R
 }
-Spatch.Input.45 -> Zoia Input.L
-Spatch.Input.46 -> Zoia Input.R
+Patch.Input.45 -> Zoia Input.L
+Patch.Input.46 -> Zoia Input.R
+
+### Elektron Syntakt ###
+Syntakt Input: {
+  L
+  R
+}
+Patch.Input.47 -> Syntakt Input.L
+Patch.Input.48 -> Syntakt Input.R
