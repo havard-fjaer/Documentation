@@ -1,146 +1,299 @@
-Synthstrom Audible Deluge : {
+Deluge: {
+  Input: {
+    Line L
+    Line R
+    Mic
+  }
+  Output: {
+    L
+    R
+    Headphones
+  }
+  MIDI: {
     shape: "sql_table"
-    Line In L:Audio
-    Line In R:Audio
-    Output L:Audio
-    Output R:Audio
-    Mic In:Audio
-    Headphones:Audio
-    Gate Out 1:Gate
-    Gate Out 2:Gate
-    Gate Out 3:Gate
-    Gate Out 4:Gate
-    CV Out 1:CV
-    CV Out 2:CV
-    USB: MIDI
-    MIDI In:MIDI
-    MIDI Out:MIDI
-}
-Alesis Strike Multipad:{
+    USB In
+    USB Out
+    DIN In
+    DIN Out
+  }
+  CV: {
     shape: "sql_table"
-    Record In L:Audio
-    Record In R:Audio
-    Main Out R:Audio
-    Main Out L:Audio
-    Aux Out R:Audio
-    Aux Out L:Audio 
-    Trigger In 1:Velocity / Switch
-    Trigger In 2:Trigger / Head+Rim
-    Trigger In 3:Trigger / Head+Rim
-    Trigger In 4:Trigger / Head+Rim
-    Trigger In 5:Trigger / Head+Rim
-    Trigger In HH:Switch / Variable
-    Foot Control 1:Switch / Variable
-    Foot Control 2:Switch / Variable
-    Foot Control 3:Switch / Variable
-    Foot Control 4:Switch / Variable
-    USB: MIDI / Audio
-    MIDI In:MIDI
-    MIDI Out/Thru:MIDI
+    Gate Out 1
+    Gate Out 2
+    Gate Out 3
+    Gate Out 4
+    CV Out 1
+    CV Out 2
+  }
 }
-Empress Zoia {
+Spatch.Input.41 -> Deluge.Input.Line L
+Spatch.Input.42 -> Deluge.Input.Line R
+Deluge.Output.L -> SPatch.Output.1
+Deluge.Output.R -> SPatch.Output.2
+
+Multipad: {
+  Input: {
+    Record L
+    Record R
+  }
+  Output: {
+    Main Out R
+    Main Out L
+    Aux Out R
+    Aux Out L
+  }
+  Trigger: {
     shape: "sql_table"
-    Input L:Audio
-    Input R:Audio
-    Output L:Audio
-    Output R:Audio
-    MIDI In:MIDI
-    MIDI Out:MIDI
-    Control Port: MIDI / EXP / CV / Switch
-    
-}
-Elektron Syntakt {
+    Trigger In 1: Velocity / Switch
+    Trigger In 2: Trigger / Head+Rim
+    Trigger In 3: Trigger / Head+Rim
+    Trigger In 4: Trigger / Head+Rim
+    Trigger In 5: Trigger / Head+Rim
+    Trigger In HH: Switch / Variable
+  }
+  Footswitch: {
     shape: "sql_table"
-    Input L:Audio
-    Input R:Audio
-    Output L:Audio
-    Output R:Audio
-    Headphones:Audio
-    USB: MIDI / Audio / Overbridge
-    MIDI In:MIDI
-    MIDI Out:MIDI
-    MIDI Thru:MIDI
-}
-Behringer ARP 2600 {
+    Foot Control 1: Switch / Variable
+    Foot Control 2: Switch / Variable
+    Foot Control 3: Switch / Variable
+    Foot Control 4: Switch / Variable
+  }
+  MIDI: {
     shape: "sql_table"
-    Output L:Audio
-    Output R:Audio
-    Headphones:Audio
-    USB:MIDI
-    MIDI In:MIDI
-    MIDI Thru:MIDI
-    Interval Latch:Switch
-    Portamento:Switch
-    Panel In / Out:CV / Gate / Trig / Audio
+    USB In
+    USB Out
+    DIN In
+    DIN Out/Thru
+  }
 }
-Apple iPad Pro {
+Spatch.Input.43 -> Multipad.Input.Record L
+Spatch.Input.44 -> Multipad.Input.Record R
+
+Zoia: {
+  shape: "sql_table"
+  Input L: Audio
+  Input R: Audio
+  Output L: Audio
+  Output R: Audio
+  MIDI In: MIDI
+  MIDI Out: MIDI
+  Control Port: MIDI / EXP / CV / Switch
+}
+Syntakt: {
+  shape: "sql_table"
+  Input L: Audio
+  Input R: Audio
+  Output L: Audio
+  Output R: Audio
+  Headphones: Audio
+  USB: MIDI / Audio / Overbridge
+  MIDI In: MIDI
+  MIDI Out: MIDI
+  MIDI Thru: MIDI
+}
+2600: {
+  shape: "sql_table"
+  Output L: Audio
+  Output R: Audio
+  Headphones: Audio
+  USB: MIDI
+  MIDI In: MIDI
+  MIDI Thru: MIDI
+  Interval Latch: Switch
+  Portamento: Switch
+  Panel In / Out: CV / Gate / Trig / Audio
+}
+iPad: {
+  shape: "sql_table"
+  Output L: Audio
+  Output R: Audio
+}
+ES-9: {
+  Output: {
+    L
+    R
+    Headphones
+    USB Audio
+    SPDIF
+  }
+  Input: {
     shape: "sql_table"
-    Output L:Audio
-    Output R:Audio
-}
-Expert Sleepers ES-9 {
+    USB Audio
+    SPDIF
+  }
+  Mixer Input: {
     shape: "sql_table"
-    Input 1:Audio / CV / Gate
-    Input 2:Audio / CV / Gate
-    Input 3:Audio / CV / Gate
-    Input 4:Audio / CV / Gate
-    Input 5:Audio / CV / Gate
-    Input 6:Audio / CV / Gate
-    Input 7:Audio / CV / Gate
-    Input 8:Audio / CV / Gate
-    Input 9:Audio / CV / Gate
-    Input 10:Audio / CV / Gate
-    Input 11:Audio / CV / Gate
-    Input 12:Audio / CV / Gate
-    Input 13:Audio / CV / Gate
-    Input 14:Audio / CV / Gate
-    Output 1:Audio / CV / Gate
-    Output 2:Audio / CV / Gate
-    Output 3:Audio / CV / Gate
-    Output 4:Audio / CV / Gate
-    Output 5:Audio / CV / Gate
-    Output 6:Audio / CV / Gate
-    Output 7:Audio / CV / Gate
-    Output 8:Audio / CV / Gate
-    Main Out L:Audio
-    Main Out R:Audio
-    Headphones:Audio    
-    USB: MIDI / Audio
-    SPDIF In:Audio
-    SPDIF Out:Audio
-}
-Behringer XR18 Mixer {
+    Input 1: Audio / CV / Gate
+    Input 2: Audio / CV / Gate
+    Input 3: Audio / CV / Gate
+    Input 4: Audio / CV / Gate
+    Input 5: Audio / CV / Gate
+    Input 6: Audio / CV / Gate
+    Input 7: Audio / CV / Gate
+    Input 8: Audio / CV / Gate
+    Input 9: Audio / CV / Gate
+    Input 10: Audio / CV / Gate
+    Input 11: Audio / CV / Gate
+    Input 12: Audio / CV / Gate
+    Input 13: Audio / CV / Gate
+    Input 14: Audio / CV / Gate
+  }
+  Mixer Output: {
     shape: "sql_table"
-    Input 1:Audio (XLR/TSR)
-    Input 2:Audio (XLR/TSR)
-    Input 3:Audio (XLR/TSR)
-    Input 4:Audio (XLR/TSR)
-    Input 5:Audio (XLR/TSR)
-    Input 6:Audio (XLR/TSR)
-    Input 7:Audio (XLR/TSR)
-    Input 8:Audio (XLR/TSR)
-    Input 9:Audio (XLR/TSR)
-    Input 10:Audio (XLR/TSR)
-    Input 11:Audio (XLR/TSR)
-    Input 12:Audio (XLR/TSR)
-    Input 13:Audio (XLR/TSR)
-    Input 14:Audio (XLR/TSR)
-    Input 15:Audio (XLR/TSR)
-    Input 16:Audio (XLR/TSR)
-    Input 17:Audio (Line)
-    Input 18:Audio (Line)
-    Aux Out 1:Audio (XLR/TSR)
-    Aux Out 2:Audio (XLR/TSR)
-    Aux Out 3:Audio (XLR/TSR)
-    Aux Out 4:Audio (XLR/TSR)
-    Aux Out 5:Audio (XLR/TSR)
-    Aux Out 6:Audio (XLR/TSR)
-    Main Out L:Audio (XLR/TSR)
-    Main Out R:Audio (XLR/TSR)
-    Headphones:Audio
-    USB:Audio / MIDI
-    MIDI In:MIDI
-    MIDI Out:MIDI
-    Remote:Ethernet
-    Personal monitoring:Ultranet
+    Output 1: Audio / CV / Gate
+    Output 2: Audio / CV / Gate
+    Output 3: Audio / CV / Gate
+    Output 4: Audio / CV / Gate
+    Output 5: Audio / CV / Gate
+    Output 6: Audio / CV / Gate
+    Output 7: Audio / CV / Gate
+    Output 8: Audio / CV / Gate
+  }
+  MIDI: {
+    shape: "sql_table"
+    In: USB
+    Out: USB
+  }
 }
+
+Spatch: {
+  Output: {
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+  }
+  Input: {
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+    41
+    42
+    43
+    44
+    45
+    46
+    47
+    48
+  }
+  Output.1 -> Input.25
+  Output.2 -> Input.26
+  Output.3 -> Input.27
+  Output.4 -> Input.28
+  Output.5 -> Input.29
+  Output.6 -> Input.30
+  Output.7 -> Input.31
+  Output.8 -> Input.32
+  Output.9 -> Input.33
+  Output.10 -> Input.34
+  Output.11 -> Input.35
+  Output.12 -> Input.36
+  Output.13 -> Input.37
+  Output.14 -> Input.38
+  Output.15 -> Input.39
+  Output.16 -> Input.40
+  Output.17 -> Input.41
+  Output.18 -> Input.42
+  Output.19 -> Input.43
+  Output.20 -> Input.44
+  Output.21 -> Input.45
+  Output.22 -> Input.46
+  Output.23 -> Input.47
+  Output.24 -> Input.48
+}
+
+XR18: {
+  Input: {
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+  }
+  Output: {
+    Aux 1
+    Aux 2
+    Aux 3
+    Aux 4
+    Aux 5
+    Aux 6
+    Main L
+    Main R
+    Headphones
+  }
+  MIDI: {
+    shape: "sql_table"
+    DIN In
+    DIN Out
+    USB In
+    USB Out
+  }
+  Other: {
+    shape: "sql_table"
+    Remote: Ethernet
+    Personal monitoring: Ultranet
+  }
+}
+
+Spatch.Input.25 -> XR18.Input.1
+Spatch.Input.26 -> XR18.Input.2
+Spatch.Input.27 -> XR18.Input.3
+Spatch.Input.28 -> XR18.Input.4
+Spatch.Input.29 -> XR18.Input.5
+Spatch.Input.30 -> XR18.Input.6
+Spatch.Input.31 -> XR18.Input.7
+Spatch.Input.32 -> XR18.Input.8
+Spatch.Input.33 -> XR18.Input.9
+Spatch.Input.34 -> XR18.Input.10
+Spatch.Input.35 -> XR18.Input.11
+Spatch.Input.36 -> XR18.Input.12
+Spatch.Input.37 -> XR18.Input.13
+Spatch.Input.38 -> XR18.Input.14
+Spatch.Input.39 -> XR18.Input.15
+Spatch.Input.40 -> XR18.Input.16
