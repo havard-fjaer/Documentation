@@ -1,0 +1,47 @@
+Multipad: {
+    label: "Alesis Strike Multipad"
+    Input: {
+      label: Audio Input
+      shape: "sql_table"
+      Record L: TRS
+      Record R: TRS
+      USB L/R: USB Audio
+    }
+    Output: {
+      label: Audio Output
+      shape: "sql_table"
+      Main R: TRS
+      Main L: TRS
+      Aux R: TRS
+      Aux L: TRS
+      Headphones: Stereo
+      USB L/R: USB Audio
+    }
+    MIDI: {
+      shape: "sql_table"
+      USB In: MIDI
+      USB Out: MIDI
+      DIN In: MIDI
+      DIN Out/Thru: MIDI
+    }
+    Trigger: {
+      label: Trigger Input
+      shape: "sql_table"
+      1: Velocity / Switch
+      2: Trigger / Head+Rim
+      3: Trigger / Head+Rim
+      4: Trigger / Head+Rim
+      5: Trigger / Head+Rim
+      HH: Switch / Variable
+    }
+    Foot: {
+      label: Foot Control Input
+      shape: "sql_table"
+      1: Switch / Variable
+      2: Switch / Variable
+      3: Switch / Variable
+      4: Switch / Variable
+    }
+  }
+  
+  

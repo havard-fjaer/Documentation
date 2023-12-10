@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" d2Version="0.6.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1199 554"><svg id="d2-svg" class="d2-2511490794" width="1199" height="554" viewBox="-91 -121 1199 554"><rect x="-91.000000" y="-121.000000" width="1199.000000" height="554.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><style type="text/css"><![CDATA[
+.d2-2511490794 .text {
+	font-family: "d2-2511490794-font-regular";
+}
+@font-face {
+	font-family: d2-2511490794-font-regular;
+	src: url("data:application/font-woff;base64,d09GRgABAAAAABAIAAoAAAAAGEQAAguFAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAAA9AAAAGAAAABgXd/Vo2NtYXAAAAFUAAAAugAAAP4EwAYlZ2x5ZgAAAhAAAAk7AAAMhCgZRvxoZWFkAAALTAAAADYAAAA2G4Ue32hoZWEAAAuEAAAAJAAAACQKhAXtaG10eAAAC6gAAACjAAAArFCSCQRsb2NhAAAMTAAAAFgAAABYQtpF+m1heHAAAAykAAAAIAAAACAAQwD2bmFtZQAADMQAAAMjAAAIFAbDVU1wb3N0AAAP6AAAAB0AAAAg/9EAMgADAgkBkAAFAAACigJYAAAASwKKAlgAAAFeADIBIwAAAgsFAwMEAwICBGAAAvcAAAADAAAAAAAAAABBREJPAEAAIP//Au7/BgAAA9gBESAAAZ8AAAAAAeYClAAAACAAA3ichM3LKrQBAIfx33zzfo7jfD6/GIyFsnEBksWUhSQLO0lSFrJyT4SVQopLcQeSjdVfSbae9a8eVFRVUFN4R12pUCgtW7FqzbpNTdt27dl34MiJMxcJSo1ftaFpy86POnTs1HmS1ySf+chbXvKcpzzmIfe5y21ucp2rXH7//65iScOiugX/VBX+a9GqTbsOnWq6dOvRq0+/AYOGDBsxasy4CZOmTJtRmjVnni8AAAD//wEAAP//JlAwygAAeJxsVmtsG2W6fr/Pk0xSO5eJPR47sWPPTOKJ7TgXj+1JYscmiW9NnNs4aevQpLS4pGlIT0klqkJOq3Mop9XZLmsJEIgtpSC0SyVYQEjdldD+WCTY7nLRLj9gWWiF+JGtFhaWKHtBS8arGTtuyvJrLGvm/d7nfS7fC1WQA8BB/BjooBYaoAloAJFiqXZWEHhSEiWJZ3SSgCgyhz5RCgjtDhChENE7/PnwqTNn0L7T+LGtewfOLi6+uXDypPLD9ZuKH713EzDoALAdF6AWKAAjKQoul8BXV+uMopEXePJtx5uOJmcj0eD8442FG7noVzH0X/m8tNLfv6LM4cLW8WvXAAAQBIqbuAVfBDtAFedyBQOhkOg3M6TLxXPV1bTJbBb9IYmprkay/D9jmbPZyH6br3nYE50X/XdGu0cdXcIhw/STy0eflHudIRs3dL8snxru4AI+PwBgmAPAAVyAGrVPkRL9ZtpUzQuiPxQMuHh+7vknLz39+OzYiRMnTozhwpWLT/8s/oO1tYe13uYA0A1cAL02M5qlRZqnWXoOPaB89M03qBcXku+lvkxtvwsv4YI6F5ESqbmsCrJc4x1cgKrS/yw9l0UOXNj6eQq2v8P/jQsqfpESjWYzI4ZCklGkeCoQknhSx+sE3mymqbn8aQNjIAy0Ye3wRI2OCKxJawFCR+KC8hyX4LgEhxa2jqOlzmXv48qLaOZx73Kn8kTlDB8ugLF0BiO6XEFKpCqV9/wlRejIyT1fpghCrZc/718OoOzWcfT0ud4jAeUKYI2nw/giNHyHKXWc1YI/pI2T0whDGflMKnVGzp5Op09nw3t7ju7bd7Rnn2HmqaWlJ6ann1haempm98gp+YFHHnlAPjUCFZ702qxNZZ40oniKqlD1+uix6P/de++hPdm9exZwoW02vZhXvkXpoWRKqtRw4gLUA7OjBmnkdTvLvDtyJDwV/+nCpZPHxmV5/Bgu8NPxzDylfIZo5XOUi90xFChx4yluoq/wRfBpiAVJ02Iw4HIJQhe+XakqboZpxeo0UGPifq+fPyAOpe29jgXHoDu4EA7neV/r7i5phPU3z7sG20J5Q7BzoN0X7uE6bPXuOs9wj3/S52sL2dlAp8PdrO9o9A31Bmb9gMAGgL7FBSBVVHyQpXnqs7fQp2/h0WRy62qpV3UAOlyAOgBRt0NHuvffzy01tRiJJhu1NPs7XFAuDRweGDg8gA5p+vQBoK81H4MYRGyQpRFL+1BOeQs9p/wEzfuxJdm7dTMFJQ2gV9EGNEMbAMOpEpACGnxS0IZBU7waAoI/JAU1874xOP2jH1PeDs+o3cndPZCbipM6btrMR/lTB/2G3UNTs5Sjj3ea+s3ulTuVDwZsnmHOca4h0u1uBwRdxU30MtpQ8X9/NmxHQ9MdRyJDy9GehNVDd9s7E0J2hBswt7FThsjqlLwa4ZiQ0dI925ddtJskO6ti6S5uoo/wNTCCcxuLVlwIitsgpGDloH/eeSx8UPJEnUQ2TupsGesdEUd/qxBzJQ0Pn5o8EW1tzr6+1ddvcydGFBvTne3bezdgrf/fog2wgOM2BKoo2Uqw6VjNOYgZOhqN5aX5wwgrv6jam+TDLXbH5NuIiPWL04bB1cmp1ejakTpr7fh+mgqZWpFrdHwSAHTgKzrRF2gDemEQxivMBF07Hho2keZLfuU5oTS/UjPVOv8t+xrLPuFcpXf+njvuYpusnNEi+Gd6TW11V/IU0zPlF7i6pvbehdnZyLGMZzDi9UYGQ8kZsXumnm1stox9Go85+s2EvsPm6KojTHFvcMJDVsUag45Axk3pW0xMqzToy3SjV2PBYCQSDMaU84MurpkgjB5a6NI0LQOgD/G1ciLQ5LbGKK1XkpJlHT/uH0/JnT3t4XZ87Y08231wXnkHueNRV7tyGYpFSADAa/gqdoEbAKrBs1byi1zchD/ga9BQmhclUhU5Xelyy/W1BEnqa8yG/iC+Z+sxI4VQlCBKPeGv0QawWk+qydTJ3tYZWXnKcVLnzHj7Yg2uic6x3XJnVygud3aH4mg9yXf3droD2+2OKZfLj23caKOMu3zGTtxxUsdPVIBrxW7DXdbeX9EGNEDL9+Z1hW/UEF6MxRbDkXtisXsisfHxWHRiouybyKo8tRqJL2ZnjhyZyS6qdeWiiP6FNsq+udWdpiqXwNDG7dokbTarnbKT3oVD4QN93AiHT0YmwwlHrI2Nvotf67N1nLtPvj/a2jz7PKpenJu6m3MWbQxUuF9AG+Vbu3RK2fmlAVjTbjvTaDA1OEasaH1fV2hXmiD8UaW8V9iKm+ghtAEejd+d2a1F93eSuxTcvw8s8G5n3NvTw4ot3LAnN+mbsHVYQ84ub2tPCx/3uScNgk2ysj6HlWN21bFBd3jSyQSMFo+NsdP6OlbqEoY7tPMtxU2UwMfUm0jTFx+UJFFdIG7p7POJwXRmV+Khh1hPXauh0dRtmEujumjV+fMjyoavt5aIknqt1lhxE72H1lU93KZVqhxVn46ns94eV5hT58JlDAfnUUD5MB4VvCinNGc6egCBAQD9Gq3/5/3w+suz+/WMntAzu/ZPv4jWlS/a0jyfbkMmpVnFAYCvonVN7zu/21GB15V2P1L3zLmZdE09SdQ01o5NZWqpGqKmgUxN/G8+WdtQS9Q07oqjdeVP3AjHjXDIuuNXM6ri4+3tCV75FhDUA6BX0DpYAURJEJnyUZJIMnx5zyTJ+mcezQ3pLXWE3qwP73n0Ui5V11xP1FkMw8rNZaPHZPIYl7/+233mTpr2Mvdp+0FncRO9if8f9NusBMrS3emHb+5aWbnrwMrKgb54vK8vkTC8dPnZF1549vJLw2cuXHjwwQsXzmicWIub6Ff4dPn2uKUv7TI0sjRP3rLbnzN5tsOe6QtPj0bZbnsnjWL/oJguu5QLDR4yhNiQzTc5MjxqMtqQmPqlod67L5E46C/p2A0fowbUrO6VUlCk3esfx2Kl/JpCtfgTlU+mFPSMFtfMB9FkMioO9PcPvHL4+tmzN/KWA9dXV68fAASu4hRcL38jaBub2jdtqs5p74vRZPKV8tuW/I2zZ6+XfAjPo/XtvVaW0bqqi+Jv8ChI+Kq6G1M7JmlxOCwWhwOP2q2W1laL1Q7/BgAA//8BAAD//30ArpcAAAEAAAACC4UPjEPNXw889QADA+gAAAAA2F2goQAAAADdZi82/jr+2whvA8gAAAADAAIAAAAAAAAAAQAAA9j+7wAACJj+Ov46CG8AAQAAAAAAAAAAAAAAAAAAACt4nBzKL0vEABjH8e/vt2ARbTJxyEAQ/LOtDEXEaLI9zccX4Esx2e2+D/MsVy7cO7h8K2NtB9c//uadAVxT+Jnen6RPSR2R2pLekP4i/UPvB9JPpM+4dUnlAnxBo5leA63v6LSj1UzjmmDilYUoXghfEb48mNAHoV8qBaVr3rTm2CtK/XGikXuNnOuRG3WEOq6ZCFj+9wAAAP//AQAA///BzB7SAAAAACwALABQAIAAngC0AMAA0AECASQBVAF2AZ4B4gH0AhACJgJeAowCvgLyA14DgAOMA6gD2gP8BCgEXAR8BLwE4gUEBSAFWgWGBawF4AXsBgYGIAYsBkIAAQAAACsAjAAMAGYABwABAAAAAAAAAAAAAAAAAAQAA3icnJTdThtXFIU/B9ttVDUXFYrIDTqXbZWM3QiiBK5MCYpVhFOP0x+pqjR4xj9iPDPyDFCqPkCv+xZ9i1z1OfoQVa+rs7wNNqoUgRCwzpy991lnr7UPsMm/bFCrPwT+av5guMZ2c8/wAx41nxre4Ljxt+H6SkyDuPGb4SZfNvqGP+J9/Q/DH7NT/9nwQ7bqR4Y/4Xl90/CnG45/DD9ih/cLXIOX/G64xhaF4Qds8pPhDR5jNWt1HtM23OAztg032QYGTKlImZIxxjFiyphz5iSUhCTMmTIiIcbRpUNKpa8ZkZBj/L9fI0Iq5kSqOKHCkRKSElEysYq/KivnrU4caTW3vQ4VEyJOlXFGRIYjZ0xORsKZ6lRUFOzRokXJUHwLKkoCSqakBOTMGdOixxHHDJgwpcRxpEqeWUjOiIpLIp3vLMJ3ZkhCRmmszsmIxdOJX6LsLsc4ehSKXa18vFbhKY7vlO255Yr9ikC/boXZ+rlLNhEX6meqrqTauZSCE+36czt8K1yxh7tXf9aZfLhHsf5XqnzKufSPpVQmJhnObdEhlINC9wTHgdZdQnXke7oMeEOPdwy07tCnT4cTBnR5rdwefRxf0+OEQ2V0hRd7R3LMCT/i+IauYnztxPqzUCzhFwpzdymOc91jRqGee+aB7prohndX2M9QvuaOUjlDzZGPdNIv05xFjM0VhRjO1MulN0rrX2yOmOkuXtubfT8NFzZ7yym+ItcMe7cuOHnlFow+pGpwyzOX+gmIiMk5VcSQnBktKq7E+y0R56Q4DtW9N5qSis51jj/nSi5JmIlBl0x15hT6G5lvQuM+XPO9s7ckVr5nenZ9q/uc4tSrG43eqXvLvdC6nKwo0DJV8xU3DcU1M+8nmqlV/qFyS71uOc/ok0j1VDe4/Q48J6DNDrvsM9E5Q+1c2BvR1jvR5hX76sEZiaJGcnViFXYJeMEuu7zixVrNDocc0GP/DhwXWT0OeH1rZ12nZRVndf4Um7b4Op5dr17eW6/P7+DLLzRRNy9jX9r4bl9YtRv/nxAx81zc1uqd3BOC/wAAAP//AQAA//8HW0wwAHicYmBmAIP/5xiMGLAAAAAAAP//AQAA//8vAQIDAAAA");
+}]]></style><style type="text/css"><![CDATA[.shape {
+  shape-rendering: geometricPrecision;
+  stroke-linejoin: round;
+}
+.connection {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.blend {
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+
+		.d2-2511490794 .fill-N1{fill:#0A0F25;}
+		.d2-2511490794 .fill-N2{fill:#676C7E;}
+		.d2-2511490794 .fill-N3{fill:#9499AB;}
+		.d2-2511490794 .fill-N4{fill:#CFD2DD;}
+		.d2-2511490794 .fill-N5{fill:#DEE1EB;}
+		.d2-2511490794 .fill-N6{fill:#EEF1F8;}
+		.d2-2511490794 .fill-N7{fill:#FFFFFF;}
+		.d2-2511490794 .fill-B1{fill:#0D32B2;}
+		.d2-2511490794 .fill-B2{fill:#0D32B2;}
+		.d2-2511490794 .fill-B3{fill:#E3E9FD;}
+		.d2-2511490794 .fill-B4{fill:#E3E9FD;}
+		.d2-2511490794 .fill-B5{fill:#EDF0FD;}
+		.d2-2511490794 .fill-B6{fill:#F7F8FE;}
+		.d2-2511490794 .fill-AA2{fill:#4A6FF3;}
+		.d2-2511490794 .fill-AA4{fill:#EDF0FD;}
+		.d2-2511490794 .fill-AA5{fill:#F7F8FE;}
+		.d2-2511490794 .fill-AB4{fill:#EDF0FD;}
+		.d2-2511490794 .fill-AB5{fill:#F7F8FE;}
+		.d2-2511490794 .stroke-N1{stroke:#0A0F25;}
+		.d2-2511490794 .stroke-N2{stroke:#676C7E;}
+		.d2-2511490794 .stroke-N3{stroke:#9499AB;}
+		.d2-2511490794 .stroke-N4{stroke:#CFD2DD;}
+		.d2-2511490794 .stroke-N5{stroke:#DEE1EB;}
+		.d2-2511490794 .stroke-N6{stroke:#EEF1F8;}
+		.d2-2511490794 .stroke-N7{stroke:#FFFFFF;}
+		.d2-2511490794 .stroke-B1{stroke:#0D32B2;}
+		.d2-2511490794 .stroke-B2{stroke:#0D32B2;}
+		.d2-2511490794 .stroke-B3{stroke:#E3E9FD;}
+		.d2-2511490794 .stroke-B4{stroke:#E3E9FD;}
+		.d2-2511490794 .stroke-B5{stroke:#EDF0FD;}
+		.d2-2511490794 .stroke-B6{stroke:#F7F8FE;}
+		.d2-2511490794 .stroke-AA2{stroke:#4A6FF3;}
+		.d2-2511490794 .stroke-AA4{stroke:#EDF0FD;}
+		.d2-2511490794 .stroke-AA5{stroke:#F7F8FE;}
+		.d2-2511490794 .stroke-AB4{stroke:#EDF0FD;}
+		.d2-2511490794 .stroke-AB5{stroke:#F7F8FE;}
+		.d2-2511490794 .background-color-N1{background-color:#0A0F25;}
+		.d2-2511490794 .background-color-N2{background-color:#676C7E;}
+		.d2-2511490794 .background-color-N3{background-color:#9499AB;}
+		.d2-2511490794 .background-color-N4{background-color:#CFD2DD;}
+		.d2-2511490794 .background-color-N5{background-color:#DEE1EB;}
+		.d2-2511490794 .background-color-N6{background-color:#EEF1F8;}
+		.d2-2511490794 .background-color-N7{background-color:#FFFFFF;}
+		.d2-2511490794 .background-color-B1{background-color:#0D32B2;}
+		.d2-2511490794 .background-color-B2{background-color:#0D32B2;}
+		.d2-2511490794 .background-color-B3{background-color:#E3E9FD;}
+		.d2-2511490794 .background-color-B4{background-color:#E3E9FD;}
+		.d2-2511490794 .background-color-B5{background-color:#EDF0FD;}
+		.d2-2511490794 .background-color-B6{background-color:#F7F8FE;}
+		.d2-2511490794 .background-color-AA2{background-color:#4A6FF3;}
+		.d2-2511490794 .background-color-AA4{background-color:#EDF0FD;}
+		.d2-2511490794 .background-color-AA5{background-color:#F7F8FE;}
+		.d2-2511490794 .background-color-AB4{background-color:#EDF0FD;}
+		.d2-2511490794 .background-color-AB5{background-color:#F7F8FE;}
+		.d2-2511490794 .color-N1{color:#0A0F25;}
+		.d2-2511490794 .color-N2{color:#676C7E;}
+		.d2-2511490794 .color-N3{color:#9499AB;}
+		.d2-2511490794 .color-N4{color:#CFD2DD;}
+		.d2-2511490794 .color-N5{color:#DEE1EB;}
+		.d2-2511490794 .color-N6{color:#EEF1F8;}
+		.d2-2511490794 .color-N7{color:#FFFFFF;}
+		.d2-2511490794 .color-B1{color:#0D32B2;}
+		.d2-2511490794 .color-B2{color:#0D32B2;}
+		.d2-2511490794 .color-B3{color:#E3E9FD;}
+		.d2-2511490794 .color-B4{color:#E3E9FD;}
+		.d2-2511490794 .color-B5{color:#EDF0FD;}
+		.d2-2511490794 .color-B6{color:#F7F8FE;}
+		.d2-2511490794 .color-AA2{color:#4A6FF3;}
+		.d2-2511490794 .color-AA4{color:#EDF0FD;}
+		.d2-2511490794 .color-AA5{color:#F7F8FE;}
+		.d2-2511490794 .color-AB4{color:#EDF0FD;}
+		.d2-2511490794 .color-AB5{color:#F7F8FE;}.appendix text.text{fill:#0A0F25}.md{--color-fg-default:#0A0F25;--color-fg-muted:#676C7E;--color-fg-subtle:#9499AB;--color-canvas-default:#FFFFFF;--color-canvas-subtle:#EEF1F8;--color-border-default:#0D32B2;--color-border-muted:#0D32B2;--color-neutral-muted:#EEF1F8;--color-accent-fg:#0D32B2;--color-accent-emphasis:#0D32B2;--color-attention-subtle:#676C7E;--color-danger-fg:red;}.sketch-overlay-B1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B2{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B3{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-AA4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-N2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-N3{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N4{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N7{fill:url(#streaks-bright);mix-blend-mode:darken}.light-code{display: block}.dark-code{display: none}]]></style><g id="Empress Zoia"><g class="shape" ><rect x="10.000000" y="20.000000" width="997.000000" height="312.000000" class=" stroke-B1 fill-B4" style="stroke-width:2;" /></g><text x="508.500000" y="7.000000" class="text fill-N1" style="text-anchor:middle;font-size:28px">Empress Zoia</text></g><g id="Empress Zoia.Input"><g class="shape" ><rect x="40.000000" y="122.000000" width="150.000000" height="108.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="40.000000" y="122.000000" width="150.000000" height="36.000000" class="class_header fill-N1" /><text x="50.000000" y="147.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">Audio Input</text><text x="50.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">L</text><text x="80.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">TRS</text><text x="180.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="190.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="50.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">R</text><text x="80.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">TRS</text><text x="180.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="190.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><g id="Empress Zoia.Output"><g class="shape" ><rect x="250.000000" y="122.000000" width="168.000000" height="108.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="250.000000" y="122.000000" width="168.000000" height="36.000000" class="class_header fill-N1" /><text x="260.000000" y="147.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">Audio Output</text><text x="260.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">L</text><text x="290.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">TRS</text><text x="408.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="250.000000" x2="418.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="260.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">R</text><text x="290.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">TRS</text><text x="408.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="250.000000" x2="418.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><g id="Empress Zoia.MIDI"><g class="shape" ><rect x="478.000000" y="122.000000" width="151.000000" height="108.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="478.000000" y="122.000000" width="151.000000" height="36.000000" class="class_header fill-N1" /><text x="488.000000" y="147.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">MIDI</text><text x="488.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">DIN In</text><text x="573.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI</text><text x="619.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="478.000000" x2="629.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="488.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">DIN Out</text><text x="573.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI</text><text x="619.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="478.000000" x2="629.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><g id="Empress Zoia.Control"><g class="shape" ><rect x="689.000000" y="50.000000" width="288.000000" height="252.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="689.000000" y="50.000000" width="288.000000" height="36.000000" class="class_header fill-N1" /><text x="699.000000" y="75.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">Control Port</text><text x="699.000000" y="109.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">MIDI In</text><text x="808.000000" y="109.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Tip-Sleeve</text><text x="967.000000" y="109.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="122.000000" y2="122.000000" class=" stroke-N1" style="stroke-width:2" /><text x="699.000000" y="145.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">MIDI Out</text><text x="808.000000" y="145.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Ring-Sleeve</text><text x="967.000000" y="145.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="158.000000" y2="158.000000" class=" stroke-N1" style="stroke-width:2" /><text x="699.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Expression</text><text x="808.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Tip-Sleeve</text><text x="967.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="699.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">CV In</text><text x="808.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Tip-Sleeve (0-5V)</text><text x="967.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /><text x="699.000000" y="253.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">CV Out</text><text x="808.000000" y="253.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Ring-Sleeve (0-5V)</text><text x="967.000000" y="253.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="266.000000" y2="266.000000" class=" stroke-N1" style="stroke-width:2" /><text x="699.000000" y="289.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Switch</text><text x="808.000000" y="289.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Tip-Sleeve</text><text x="967.000000" y="289.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="689.000000" x2="977.000000" y1="302.000000" y2="302.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><mask id="d2-2511490794" maskUnits="userSpaceOnUse" x="-91" y="-121" width="1199" height="554">
+<rect x="-91" y="-121" width="1199" height="554" fill="white"></rect>
+<rect x="431.000000" y="-21.000000" width="155" height="36" fill="rgba(0,0,0,0.75)"></rect>
+</mask></svg></svg>

@@ -1,0 +1,32 @@
+Empress Zoia: {
+    label: Empress Zoia
+    Input: {
+      label: Audio Input
+      shape: "sql_table"
+      L: TRS
+      R: TRS
+    }
+    Output: {
+      label: Audio Output
+      shape: "sql_table"
+      L: TRS
+      R: TRS
+    }
+    MIDI: {
+      shape: "sql_table"
+      DIN In: MIDI
+      DIN Out: MIDI
+    }
+    Control: {
+      label: Control Port
+      shape: "sql_table"
+      MIDI In: Tip-Sleeve
+      MIDI Out: Ring-Sleeve
+      Expression: Tip-Sleeve
+      CV In: Tip-Sleeve (0-5V)
+      CV Out: Ring-Sleeve (0-5V)
+      Switch: Tip-Sleeve
+    }
+  }
+  
+  
