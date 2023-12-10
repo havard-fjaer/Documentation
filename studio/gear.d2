@@ -1,0 +1,206 @@
+Deluge: {
+  label: "Synthstrom Audible Deluge"
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    L: Line
+    R: Line
+    Mic: Microphone
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    L: Line
+    R: Line
+    Headphones: Phones
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+    DIN In: MIDI
+    DIN Out: MIDI
+  }
+  CV Output: {
+    shape: "sql_table"
+    Gate Out 1: Gate
+    Gate Out 2: Gate
+    Gate Out 3: Gate
+    Gate Out 4: Gate
+    CV Out 1: CV
+    CV Out 2: CV
+  }
+}
+
+Multipad: {
+  label: "Alesis Strike Multipad"
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    Record L: TRS
+    Record R: TRS
+    USB L/R: USB Audio
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    Main R: TRS
+    Main L: TRS
+    Aux R: TRS
+    Aux L: TRS
+    Headphones: Stereo
+    USB L/R: USB Audio
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+    DIN In: MIDI
+    DIN Out/Thru: MIDI
+  }
+  Trigger: {
+    label: Trigger Input
+    shape: "sql_table"
+    1: Velocity / Switch
+    2: Trigger / Head+Rim
+    3: Trigger / Head+Rim
+    4: Trigger / Head+Rim
+    5: Trigger / Head+Rim
+    HH: Switch / Variable
+  }
+  Foot: {
+    label: Foot Control Input
+    shape: "sql_table"
+    1: Switch / Variable
+    2: Switch / Variable
+    3: Switch / Variable
+    4: Switch / Variable
+  }
+}
+
+Empress Zoia: {
+  label: Empress Zoia
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    L: TRS
+    R: TRS
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    L: TRS
+    R: TRS
+  }
+  MIDI: {
+    shape: "sql_table"
+    DIN In: MIDI
+    DIN Out: MIDI
+  }
+  Control: {
+    label: Control Port
+    shape: "sql_table"
+    MIDI In: Tip-Sleeve
+    MIDI Out: Ring-Sleeve
+    Expression: Tip-Sleeve
+    CV In: Tip-Sleeve (0-5V)
+    CV Out: Ring-Sleeve (0-5V)
+    Switch: Tip-Sleeve
+  }
+}
+
+Elektron Syntakt: {
+  shape: "sql_table"
+  Input L: Audio
+  Input R: Audio
+  Output L: Audio
+  Output R: Audio
+  Headphones: Audio
+  USB: MIDI / Audio / Overbridge
+  MIDI In: MIDI
+  MIDI Out: MIDI
+  MIDI Thru: MIDI
+}
+Behringer ARP 2600: {
+  shape: "sql_table"
+  Output L: Audio
+  Output R: Audio
+  Headphones: Audio
+  USB: MIDI
+  MIDI In: MIDI
+  MIDI Thru: MIDI
+  Interval Latch: Switch
+  Portamento: Switch
+  Panel In / Out: CV / Gate / Trig / Audio
+}
+Apple iPad Pro: {
+  shape: "sql_table"
+  Output L: Audio
+  Output R: Audio
+}
+Expert Sleepers ES-9: {
+  shape: "sql_table"
+  Input 1: Audio / CV / Gate
+  Input 2: Audio / CV / Gate
+  Input 3: Audio / CV / Gate
+  Input 4: Audio / CV / Gate
+  Input 5: Audio / CV / Gate
+  Input 6: Audio / CV / Gate
+  Input 7: Audio / CV / Gate
+  Input 8: Audio / CV / Gate
+  Input 9: Audio / CV / Gate
+  Input 10: Audio / CV / Gate
+  Input 11: Audio / CV / Gate
+  Input 12: Audio / CV / Gate
+  Input 13: Audio / CV / Gate
+  Input 14: Audio / CV / Gate
+  Output 1: Audio / CV / Gate
+  Output 2: Audio / CV / Gate
+  Output 3: Audio / CV / Gate
+  Output 4: Audio / CV / Gate
+  Output 5: Audio / CV / Gate
+  Output 6: Audio / CV / Gate
+  Output 7: Audio / CV / Gate
+  Output 8: Audio / CV / Gate
+  Main Out L: Audio
+  Main Out R: Audio
+  Headphones: Audio
+  USB: MIDI / Audio
+  SPDIF In: Audio
+  SPDIF Out: Audio
+}
+Behringer XR18 Mixer: {
+  shape: "sql_table"
+  Input 1: Audio (XLR/TSR)
+  Input 2: Audio (XLR/TSR)
+  Input 3: Audio (XLR/TSR)
+  Input 4: Audio (XLR/TSR)
+  Input 5: Audio (XLR/TSR)
+  Input 6: Audio (XLR/TSR)
+  Input 7: Audio (XLR/TSR)
+  Input 8: Audio (XLR/TSR)
+  Input 9: Audio (XLR/TSR)
+  Input 10: Audio (XLR/TSR)
+  Input 11: Audio (XLR/TSR)
+  Input 12: Audio (XLR/TSR)
+  Input 13: Audio (XLR/TSR)
+  Input 14: Audio (XLR/TSR)
+  Input 15: Audio (XLR/TSR)
+  Input 16: Audio (XLR/TSR)
+  Input 17: Audio (Line)
+  Input 18: Audio (Line)
+  Aux Out 1: Audio (XLR/TSR)
+  Aux Out 2: Audio (XLR/TSR)
+  Aux Out 3: Audio (XLR/TSR)
+  Aux Out 4: Audio (XLR/TSR)
+  Aux Out 5: Audio (XLR/TSR)
+  Aux Out 6: Audio (XLR/TSR)
+  Main Out L: Audio (XLR/TSR)
+  Main Out R: Audio (XLR/TSR)
+  Headphones: Audio
+  USB: Audio / MIDI
+  MIDI In: MIDI
+  MIDI Out: MIDI
+  Remote: Ethernet
+  Personal monitoring: Ultranet
+}
