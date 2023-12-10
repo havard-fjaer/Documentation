@@ -1,13 +1,7 @@
 # Deluge
-Deluge Input: {
-    Line L
-    Line R
-    Mic
-}
 Deluge Output: {
     L
     R
-    Headphones
 }
 # Deluge: {
 #   MIDI: {
@@ -27,25 +21,19 @@ Deluge Output: {
 #     CV Out 2
 #   }
 # }
-Spatch.Input.41 -> Deluge Input.Line L
-Spatch.Input.42 -> Deluge Input.Line R
 Deluge Output.L -> SPatch.Output.1
 Deluge Output.R -> SPatch.Output.2
 
-# Multipad
-Multipad Input: {
-    Record L
-    Record R
-}
-Spatch.Input.43 -> Multipad Input.Record L
-Spatch.Input.44 -> Multipad Input.Record R
+
 
 Multipad Output: {
-    Main Out R
-    Main Out L
-    Aux Out R
-    Aux Out L
+    Main R
+    Main L
 }
+
+Multipad Output.Main R -> SPatch.Output.3
+Multipad Output.Main L -> SPatch.Output.4
+
 # Multipad: {
 #   Trigger: {
 #     shape: "sql_table"
@@ -76,12 +64,6 @@ Multipad Output: {
 
 ### Empress Zoia ###
 
-Zoia Input: {
-  L
-  R
-}
-Spatch.Input.45 -> Zoia Input.L
-Spatch.Input.46 -> Zoia Input.R
 
 Zoia Output: {
   L
@@ -196,8 +178,8 @@ XR18 Input: {
     14
     15
     16
-    17
-    18
+    # 17
+    # 18
 }
 
 XR18 Output: {
@@ -209,8 +191,15 @@ XR18 Output: {
     Aux 6
     Main L
     Main R
-    Headphones
 }
+XR18 Output.Aux 1 -> SPatch.Output.17
+XR18 Output.Aux 2 -> SPatch.Output.18
+XR18 Output.Aux 3 -> SPatch.Output.19
+XR18 Output.Aux 4 -> SPatch.Output.20
+XR18 Output.Aux 5 -> SPatch.Output.21
+XR18 Output.Aux 6 -> SPatch.Output.22
+XR18 Output.Main L -> SPatch.Output.23
+XR18 Output.Main R -> SPatch.Output.24
 
 # XR18: {
 #   MIDI: {
@@ -300,11 +289,11 @@ Spatch: {
     47
     48
   }
-  Output.1 -> Input.25
-  Output.2 -> Input.26
-  Output.3 -> Input.27
-  Output.4 -> Input.28
-  Output.5 -> Input.29
+  Output.1 -> Input.25 : Normal
+  Output.2 -> Input.26 : Normal
+  Output.3 -> Input.27 : Normal
+  Output.4 -> Input.28 : Normal
+  Output.5 -> Input.29 : Normal
   Output.6 -> Input.30
   Output.7 -> Input.31
   Output.8 -> Input.32
@@ -326,3 +315,25 @@ Spatch: {
   Output.24 -> Input.48
 }
 
+Deluge Input: {
+  Line L
+  Line R
+}
+Spatch.Input.41 -> Deluge Input.Line L
+Spatch.Input.42 -> Deluge Input.Line R
+
+
+# Multipad
+Multipad Input: {
+  Record L
+  Record R
+}
+Spatch.Input.43 -> Multipad Input.Record L
+Spatch.Input.44 -> Multipad Input.Record R
+
+Zoia Input: {
+  L
+  R
+}
+Spatch.Input.45 -> Zoia Input.L
+Spatch.Input.46 -> Zoia Input.R
