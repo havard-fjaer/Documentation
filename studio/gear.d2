@@ -1,18 +1,19 @@
+direction: down
+
 Deluge: {
   label: "Synthstrom Audible Deluge"
   Input: {
     label: Audio Input
     shape: "sql_table"
-    L: Line
-    R: Line
-    Mic: Microphone
+    Line: TRS / L / R  / Stereo
+    Mic: Built-in
   }
   Output: {
     label: Audio Output
     shape: "sql_table"
-    L: Line
-    R: Line
-    Headphones: Phones
+    L: TRS
+    R: TRS
+    Headphones: Stereo (1/8")
   }
   MIDI: {
     shape: "sql_table"
@@ -23,12 +24,12 @@ Deluge: {
   }
   CV Output: {
     shape: "sql_table"
-    Gate Out 1: Gate
-    Gate Out 2: Gate
-    Gate Out 3: Gate
-    Gate Out 4: Gate
-    CV Out 1: CV
-    CV Out 2: CV
+    Gate 1: 5-12V
+    Gate 2: 5-12V
+    Gate 3: 5-12V
+    Gate 4: 5-12V
+    CV 1: 0-10V
+    CV 2: 0-10V
   }
 }
 
@@ -110,97 +111,172 @@ Empress Zoia: {
 }
 
 Elektron Syntakt: {
-  shape: "sql_table"
-  Input L: Audio
-  Input R: Audio
-  Output L: Audio
-  Output R: Audio
-  Headphones: Audio
-  USB: MIDI / Audio / Overbridge
-  MIDI In: MIDI
-  MIDI Out: MIDI
-  MIDI Thru: MIDI
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    L: TRS
+    R: TRS
+    USB: USB Audio / Overbridge
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    L: TRS
+    R: TRS
+    USB: USB Audio / Overbridge
+    Headphones: Stereo
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+    DIN In: MIDI
+    DIN Out: MIDI
+  }
 }
-Behringer ARP 2600: {
-  shape: "sql_table"
-  Output L: Audio
-  Output R: Audio
-  Headphones: Audio
-  USB: MIDI
-  MIDI In: MIDI
-  MIDI Thru: MIDI
-  Interval Latch: Switch
-  Portamento: Switch
-  Panel In / Out: CV / Gate / Trig / Audio
+
+2600: {
+  label: Behringer ARP 2600
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    L: TS
+    R: TS
+    Headphones: Stereo
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+    DIN In: MIDI
+    DIN Thru: MIDI
+  }
+  Control: {
+    label: Control Port
+    shape: "sql_table"
+    Interval Latch: Switch
+    Portamento: Switch
+  }
+  Panel In / Out: {
+    label: Panel In / Out
+    shape: "sql_table"
+    CV: TS
+    Gate: TS
+    Trig: TS
+    Audio: TS
+  }
 }
-Apple iPad Pro: {
-  shape: "sql_table"
-  Output L: Audio
-  Output R: Audio
+
+iPad: {
+  label: "Apple iPad Pro"
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    Headphones: Stereo
+  }
 }
-Expert Sleepers ES-9: {
-  shape: "sql_table"
-  Input 1: Audio / CV / Gate
-  Input 2: Audio / CV / Gate
-  Input 3: Audio / CV / Gate
-  Input 4: Audio / CV / Gate
-  Input 5: Audio / CV / Gate
-  Input 6: Audio / CV / Gate
-  Input 7: Audio / CV / Gate
-  Input 8: Audio / CV / Gate
-  Input 9: Audio / CV / Gate
-  Input 10: Audio / CV / Gate
-  Input 11: Audio / CV / Gate
-  Input 12: Audio / CV / Gate
-  Input 13: Audio / CV / Gate
-  Input 14: Audio / CV / Gate
-  Output 1: Audio / CV / Gate
-  Output 2: Audio / CV / Gate
-  Output 3: Audio / CV / Gate
-  Output 4: Audio / CV / Gate
-  Output 5: Audio / CV / Gate
-  Output 6: Audio / CV / Gate
-  Output 7: Audio / CV / Gate
-  Output 8: Audio / CV / Gate
-  Main Out L: Audio
-  Main Out R: Audio
-  Headphones: Audio
-  USB: MIDI / Audio
-  SPDIF In: Audio
-  SPDIF Out: Audio
+
+ES-9: {
+  label: "Expert Sleepers ES-9"
+  Output: {
+    shape: "sql_table"
+    Main L: TRS
+    Main R: TRS
+    Headphones: Stereo
+    USB: 16 Channels
+    SPDIF Out: SPDIF
+  }
+  Input: {
+    shape: "sql_table"
+    USB: 16 Channels
+    SPDIF In: SPDIF
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+  }
+  Mixer Input: {
+    label: Mixer Input (TS)
+    shape: "sql_table"
+    1: Audio / CV / Gate
+    2: Audio / CV / Gate
+    3: Audio / CV / Gate
+    4: Audio / CV / Gate
+    5: Audio / CV / Gate
+    6: Audio / CV / Gate
+    7: Audio / CV / Gate
+    8: Audio / CV / Gate
+    9: Audio / CV / Gate
+    10: Audio / CV / Gate
+    11: Audio / CV / Gate
+    12: Audio / CV / Gate
+    13: Audio / CV / Gate
+    14: Audio / CV / Gate
+  }
+  Mixer Output: {
+    label: Mixer Output (TS)
+    shape: "sql_table"
+    1: Audio / CV / Gate
+    2: Audio / CV / Gate
+    3: Audio / CV / Gate
+    4: Audio / CV / Gate
+    5: Audio / CV / Gate
+    6: Audio / CV / Gate
+    7: Audio / CV / Gate
+    8: Audio / CV / Gate
+  }
 }
-Behringer XR18 Mixer: {
-  shape: "sql_table"
-  Input 1: Audio (XLR/TSR)
-  Input 2: Audio (XLR/TSR)
-  Input 3: Audio (XLR/TSR)
-  Input 4: Audio (XLR/TSR)
-  Input 5: Audio (XLR/TSR)
-  Input 6: Audio (XLR/TSR)
-  Input 7: Audio (XLR/TSR)
-  Input 8: Audio (XLR/TSR)
-  Input 9: Audio (XLR/TSR)
-  Input 10: Audio (XLR/TSR)
-  Input 11: Audio (XLR/TSR)
-  Input 12: Audio (XLR/TSR)
-  Input 13: Audio (XLR/TSR)
-  Input 14: Audio (XLR/TSR)
-  Input 15: Audio (XLR/TSR)
-  Input 16: Audio (XLR/TSR)
-  Input 17: Audio (Line)
-  Input 18: Audio (Line)
-  Aux Out 1: Audio (XLR/TSR)
-  Aux Out 2: Audio (XLR/TSR)
-  Aux Out 3: Audio (XLR/TSR)
-  Aux Out 4: Audio (XLR/TSR)
-  Aux Out 5: Audio (XLR/TSR)
-  Aux Out 6: Audio (XLR/TSR)
-  Main Out L: Audio (XLR/TSR)
-  Main Out R: Audio (XLR/TSR)
-  Headphones: Audio
-  USB: Audio / MIDI
-  MIDI In: MIDI
-  MIDI Out: MIDI
-  Remote: Ethernet
-  Personal monitoring: Ultranet
+
+XR18: {
+  label: "Behringer XR18"
+  Input: {
+    shape: "sql_table"
+    1: TRS / XLR
+    2: TRS / XLR
+    3: TRS / XLR
+    4: TRS / XLR
+    5: TRS / XLR
+    6: TRS / XLR
+    7: TRS / XLR
+    8: TRS / XLR
+    9: TRS / XLR
+    10: TRS / XLR
+    11: TRS / XLR
+    12: TRS / XLR
+    13: TRS / XLR
+    14: TRS / XLR
+    15: TRS / XLR
+    16: TRS / XLR
+    17: TRS
+    18: TRS
+    USB: 18 Channels
+  }
+  Output: {
+    shape: "sql_table"
+    Aux 1: TRS / XLR
+    Aux 2: TRS / XLR
+    Aux 3: TRS / XLR
+    Aux 4: TRS / XLR
+    Aux 5: TRS / XLR
+    Aux 6: TRS / XLR
+    Main L: TRS / XLR
+    Main R: TRS / XLR
+    Headphones: Stereo
+    USB: 18 Channels
+  }
+  MIDI: {
+    shape: "sql_table"
+    USB In: MIDI
+    USB Out: MIDI
+    DIN In: MIDI
+    DIN Out: MIDI
+  }
+  Other: {
+    shape: "sql_table"
+    Ethernet: Remote
+    WiFi: Remote
+    USB: Remote
+    Ultranet: Personal monitoring
+  }
 }
