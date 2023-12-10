@@ -6,12 +6,23 @@
 
 ![Deluge diagram](deluge.svg)
 
+## Alesis Strike Multipad
+- [Multipad FAQ](https://support.alesis.com/en/support/solutions/articles/69000840182-alesis-strike-multipad-frequently-asked-questions)
+
+![Multipad diagram](multipad.svg)
+
 
 ## Empress Zoia
 - [Zoia Product Page](https://empresseffects.com/products/zoia)
 - [Zoia User Manual](https://support.empresseffects.com/support/solutions/articles/1000282818)
 
 ![Zoia diagram](zoia.svg)
+
+## Elektron Syntakt
+- [Syntakt Product Page](https://www.elektron.se/en/syntakt-explorer)
+- [Syntakt Support](https://www.elektron.se/en/download-support-syntakt#resources)
+
+![Syntakt diagram](syntakt.svg)
 
 
 ## Expert Sleepers ES-9
@@ -27,11 +38,20 @@
 ![ARP 2600 diagram](2600.svg)
 
 
+## DJI Mic
+![DJI Mic diagram](dji.svg)
+
+
+## Apple iPad Pro
+![iPad Pro diagram](ipad.svg)
+
+
 ## Behringer XR18
 - [XR18 Product Page](https://www.behringer.com/product.html?modelCode=P0BI8)
 - [XR18 Documentation](https://mediadl.musictribe.com/media/PLM/data/docs/X-AIR/M_BE_0605-AAA_X-AIR_EN.pdf)
 
 ![XR18 diagram](xr18.svg)
+
 
 
 # Patches
