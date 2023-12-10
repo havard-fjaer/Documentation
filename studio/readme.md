@@ -57,5 +57,5 @@
 # Patches
 
 ## Samson XR18 patch
-![Diagram of XR18 patch](samson_xr18.svg)
+[![Diagram of XR18 patch](samson_xr18.svg)](samson_xr18.svg)
 
