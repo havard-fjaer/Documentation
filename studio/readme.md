@@ -1,3 +1,8 @@
+# Patches
+## XR18 patch
+![Diagram of studio](patchbay_xr18.svg)
+[Diagram source code](patchbay_xr18.d2)  
+
 # Gear
 
 ## Synthstrom Audible Deluge
@@ -19,9 +24,5 @@
 - [XR18 Product Page](https://www.behringer.com/product.html?modelCode=P0BI8)
 - [XR18 Documentation](https://mediadl.musictribe.com/media/PLM/data/docs/X-AIR/M_BE_0605-AAA_X-AIR_EN.pdf)
 
-
-# Diagram
-![Diagram of studio](studio.svg)
-[Diagram source code](studio.d2)  
-## Diagram Tool
+# Diagram Tool
 D2 Declarative Diagramming: https://github.com/terrastruct/d2
