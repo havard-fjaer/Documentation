@@ -1,0 +1,28 @@
+monotribe: {
+  label: Korg Monotribe
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    Audio In: 1/8" TRS
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    Output: 1/"4" TS
+  }
+  MIDI: {
+    shape: "sql_table"
+    DIN In: Channel 1 and 10, Clock, Transport
+    DIN Out: Channel 1, Clock
+  }
+  Sync: {
+    shape: "sql_table"
+    In: 1/8" TRS max 20V
+    Out: 1/8" TRS 5V
+  }
+  Power: {
+    shape: "sql_table"
+    Barrel: DC 9V, positive tip
+    Batteries: 6x AA
+  }
+}

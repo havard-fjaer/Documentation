@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" d2Version="0.6.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1119 482"><svg id="d2-svg" class="d2-1621620234" width="1119" height="482" viewBox="-91 -121 1119 482"><rect x="-91.000000" y="-121.000000" width="1119.000000" height="482.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><style type="text/css"><![CDATA[
+.d2-1621620234 .text {
+	font-family: "d2-1621620234-font-regular";
+}
+@font-face {
+	font-family: d2-1621620234-font-regular;
+	src: url("data:application/font-woff;base64,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");
+}]]></style><style type="text/css"><![CDATA[.shape {
+  shape-rendering: geometricPrecision;
+  stroke-linejoin: round;
+}
+.connection {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.blend {
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+
+		.d2-1621620234 .fill-N1{fill:#0A0F25;}
+		.d2-1621620234 .fill-N2{fill:#676C7E;}
+		.d2-1621620234 .fill-N3{fill:#9499AB;}
+		.d2-1621620234 .fill-N4{fill:#CFD2DD;}
+		.d2-1621620234 .fill-N5{fill:#DEE1EB;}
+		.d2-1621620234 .fill-N6{fill:#EEF1F8;}
+		.d2-1621620234 .fill-N7{fill:#FFFFFF;}
+		.d2-1621620234 .fill-B1{fill:#0D32B2;}
+		.d2-1621620234 .fill-B2{fill:#0D32B2;}
+		.d2-1621620234 .fill-B3{fill:#E3E9FD;}
+		.d2-1621620234 .fill-B4{fill:#E3E9FD;}
+		.d2-1621620234 .fill-B5{fill:#EDF0FD;}
+		.d2-1621620234 .fill-B6{fill:#F7F8FE;}
+		.d2-1621620234 .fill-AA2{fill:#4A6FF3;}
+		.d2-1621620234 .fill-AA4{fill:#EDF0FD;}
+		.d2-1621620234 .fill-AA5{fill:#F7F8FE;}
+		.d2-1621620234 .fill-AB4{fill:#EDF0FD;}
+		.d2-1621620234 .fill-AB5{fill:#F7F8FE;}
+		.d2-1621620234 .stroke-N1{stroke:#0A0F25;}
+		.d2-1621620234 .stroke-N2{stroke:#676C7E;}
+		.d2-1621620234 .stroke-N3{stroke:#9499AB;}
+		.d2-1621620234 .stroke-N4{stroke:#CFD2DD;}
+		.d2-1621620234 .stroke-N5{stroke:#DEE1EB;}
+		.d2-1621620234 .stroke-N6{stroke:#EEF1F8;}
+		.d2-1621620234 .stroke-N7{stroke:#FFFFFF;}
+		.d2-1621620234 .stroke-B1{stroke:#0D32B2;}
+		.d2-1621620234 .stroke-B2{stroke:#0D32B2;}
+		.d2-1621620234 .stroke-B3{stroke:#E3E9FD;}
+		.d2-1621620234 .stroke-B4{stroke:#E3E9FD;}
+		.d2-1621620234 .stroke-B5{stroke:#EDF0FD;}
+		.d2-1621620234 .stroke-B6{stroke:#F7F8FE;}
+		.d2-1621620234 .stroke-AA2{stroke:#4A6FF3;}
+		.d2-1621620234 .stroke-AA4{stroke:#EDF0FD;}
+		.d2-1621620234 .stroke-AA5{stroke:#F7F8FE;}
+		.d2-1621620234 .stroke-AB4{stroke:#EDF0FD;}
+		.d2-1621620234 .stroke-AB5{stroke:#F7F8FE;}
+		.d2-1621620234 .background-color-N1{background-color:#0A0F25;}
+		.d2-1621620234 .background-color-N2{background-color:#676C7E;}
+		.d2-1621620234 .background-color-N3{background-color:#9499AB;}
+		.d2-1621620234 .background-color-N4{background-color:#CFD2DD;}
+		.d2-1621620234 .background-color-N5{background-color:#DEE1EB;}
+		.d2-1621620234 .background-color-N6{background-color:#EEF1F8;}
+		.d2-1621620234 .background-color-N7{background-color:#FFFFFF;}
+		.d2-1621620234 .background-color-B1{background-color:#0D32B2;}
+		.d2-1621620234 .background-color-B2{background-color:#0D32B2;}
+		.d2-1621620234 .background-color-B3{background-color:#E3E9FD;}
+		.d2-1621620234 .background-color-B4{background-color:#E3E9FD;}
+		.d2-1621620234 .background-color-B5{background-color:#EDF0FD;}
+		.d2-1621620234 .background-color-B6{background-color:#F7F8FE;}
+		.d2-1621620234 .background-color-AA2{background-color:#4A6FF3;}
+		.d2-1621620234 .background-color-AA4{background-color:#EDF0FD;}
+		.d2-1621620234 .background-color-AA5{background-color:#F7F8FE;}
+		.d2-1621620234 .background-color-AB4{background-color:#EDF0FD;}
+		.d2-1621620234 .background-color-AB5{background-color:#F7F8FE;}
+		.d2-1621620234 .color-N1{color:#0A0F25;}
+		.d2-1621620234 .color-N2{color:#676C7E;}
+		.d2-1621620234 .color-N3{color:#9499AB;}
+		.d2-1621620234 .color-N4{color:#CFD2DD;}
+		.d2-1621620234 .color-N5{color:#DEE1EB;}
+		.d2-1621620234 .color-N6{color:#EEF1F8;}
+		.d2-1621620234 .color-N7{color:#FFFFFF;}
+		.d2-1621620234 .color-B1{color:#0D32B2;}
+		.d2-1621620234 .color-B2{color:#0D32B2;}
+		.d2-1621620234 .color-B3{color:#E3E9FD;}
+		.d2-1621620234 .color-B4{color:#E3E9FD;}
+		.d2-1621620234 .color-B5{color:#EDF0FD;}
+		.d2-1621620234 .color-B6{color:#F7F8FE;}
+		.d2-1621620234 .color-AA2{color:#4A6FF3;}
+		.d2-1621620234 .color-AA4{color:#EDF0FD;}
+		.d2-1621620234 .color-AA5{color:#F7F8FE;}
+		.d2-1621620234 .color-AB4{color:#EDF0FD;}
+		.d2-1621620234 .color-AB5{color:#F7F8FE;}.appendix text.text{fill:#0A0F25}.md{--color-fg-default:#0A0F25;--color-fg-muted:#676C7E;--color-fg-subtle:#9499AB;--color-canvas-default:#FFFFFF;--color-canvas-subtle:#EEF1F8;--color-border-default:#0D32B2;--color-border-muted:#0D32B2;--color-neutral-muted:#EEF1F8;--color-accent-fg:#0D32B2;--color-accent-emphasis:#0D32B2;--color-attention-subtle:#676C7E;--color-danger-fg:red;}.sketch-overlay-B1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B2{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B3{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-AA4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-N2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-N3{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N4{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N7{fill:url(#streaks-bright);mix-blend-mode:darken}.light-code{display: block}.dark-code{display: none}]]></style><g id="x-touch"><g class="shape" ><rect x="10.000000" y="20.000000" width="917.000000" height="240.000000" class=" stroke-B1 fill-B4" style="stroke-width:2;" /></g><text x="468.500000" y="7.000000" class="text fill-N1" style="text-anchor:middle;font-size:28px">Behringer X-Touch</text></g><g id="x-touch.MIDI"><g class="shape" ><rect x="40.000000" y="50.000000" width="230.000000" height="180.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="40.000000" y="50.000000" width="230.000000" height="36.000000" class="class_header fill-N1" /><text x="50.000000" y="75.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">MIDI</text><text x="50.000000" y="109.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">USB In</text><text x="140.000000" y="109.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI / Mackie</text><text x="260.000000" y="109.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="270.000000" y1="122.000000" y2="122.000000" class=" stroke-N1" style="stroke-width:2" /><text x="50.000000" y="145.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">USB Out</text><text x="140.000000" y="145.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI</text><text x="260.000000" y="145.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="270.000000" y1="158.000000" y2="158.000000" class=" stroke-N1" style="stroke-width:2" /><text x="50.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">DIN In</text><text x="140.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI / Mackie</text><text x="260.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="270.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="50.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">DIN Out</text><text x="140.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">MIDI</text><text x="260.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="40.000000" x2="270.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><g id="x-touch.Foot Control"><g class="shape" ><rect x="330.000000" y="68.000000" width="281.000000" height="144.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="330.000000" y="68.000000" width="281.000000" height="36.000000" class="class_header fill-N1" /><text x="340.000000" y="93.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">Foot Control</text><text x="340.000000" y="127.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Footsw 1</text><text x="502.000000" y="127.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Trigger</text><text x="601.000000" y="127.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="330.000000" x2="611.000000" y1="140.000000" y2="140.000000" class=" stroke-N1" style="stroke-width:2" /><text x="340.000000" y="163.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Footsw 2</text><text x="502.000000" y="163.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Trigger</text><text x="601.000000" y="163.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="330.000000" x2="611.000000" y1="176.000000" y2="176.000000" class=" stroke-N1" style="stroke-width:2" /><text x="340.000000" y="199.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Expression Pedal</text><text x="502.000000" y="199.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Expression</text><text x="601.000000" y="199.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="330.000000" x2="611.000000" y1="212.000000" y2="212.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><g id="x-touch.Other"><g class="shape" ><rect x="671.000000" y="50.000000" width="226.000000" height="180.000000" class="shape stroke-N1 fill-N7" style="stroke-width:2;" /><rect x="671.000000" y="50.000000" width="226.000000" height="36.000000" class="class_header fill-N1" /><text x="681.000000" y="75.750000" class="text fill-N7" style="text-anchor:start;font-size:24px">Other</text><text x="681.000000" y="109.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">USB</text><text x="789.000000" y="109.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Hub / MIDI</text><text x="887.000000" y="109.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="671.000000" x2="897.000000" y1="122.000000" y2="122.000000" class=" stroke-N1" style="stroke-width:2" /><text x="681.000000" y="145.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">USB Hub 1</text><text x="789.000000" y="145.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">USB Client</text><text x="887.000000" y="145.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="671.000000" x2="897.000000" y1="158.000000" y2="158.000000" class=" stroke-N1" style="stroke-width:2" /><text x="681.000000" y="181.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">USB Hub 2</text><text x="789.000000" y="181.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">USB Client</text><text x="887.000000" y="181.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="671.000000" x2="897.000000" y1="194.000000" y2="194.000000" class=" stroke-N1" style="stroke-width:2" /><text x="681.000000" y="217.000000" class="text fill-B2" style="text-anchor:start;font-size:20px">Remote</text><text x="789.000000" y="217.000000" class="text fill-N2" style="text-anchor:start;font-size:20px">Ethernet</text><text x="887.000000" y="217.000000" class="text fill-AA2" style="text-anchor:end;font-size:20px" /><line x1="671.000000" x2="897.000000" y1="230.000000" y2="230.000000" class=" stroke-N1" style="stroke-width:2" /></g></g><mask id="d2-1621620234" maskUnits="userSpaceOnUse" x="-91" y="-121" width="1119" height="482">
+<rect x="-91" y="-121" width="1119" height="482" fill="white"></rect>
+<rect x="361.000000" y="-21.000000" width="215" height="36" fill="rgba(0,0,0,0.75)"></rect>
+</mask></svg></svg>

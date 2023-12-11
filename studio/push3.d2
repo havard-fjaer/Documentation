@@ -1,0 +1,34 @@
+push3: {
+  label: Ableton Push 3
+  Input: {
+    label: Audio Input
+    shape: "sql_table"
+    1: Line TRS / Instrument TS
+    2: Line TRS / Instrument TS
+    USB In: 16 Channels
+    ADAT In: TOSLINK / 8 Channels
+  }
+  Output: {
+    label: Audio Output
+    shape: "sql_table"
+    1: Line TRS
+    2: Line TRS
+    Headphones: Stereo
+    USB Out: 16 Channels
+    ADAT Out: TOSLINK / 8 Channels
+  }
+    MIDI: {
+        label: MIDI
+        shape: "sql_table"
+        USB In: MIDI
+        USB Out: MIDI
+        1/8" In: MIDI
+        1/8" Out: MIDI
+    }
+    Pedal {
+        label: Pedal / CV / Gate
+        shape: "sql_table"
+        1: TRS / Switch / CV 1 / CV 2
+        2: TRS / Switch / CV 3 / CV 4
+    }
+}
